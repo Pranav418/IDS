@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
+</head>
+<body style="text-align: center">
+    
+    <h1> Web Instrusion Detection System </h1>
+    
+    <p> This is the home page, let everything be done here </p>
+
+    <p> select a random number for a server request </p>
+
+    <div class="slidecontainer">
+        <input type="range" min="1" max="163027" value="50" class="slider" id="myRange">
+      </div>
+
+      <p>Value: <span id="demo"></span></p>
+
+      <button onclick="myFunction()">Click me</button> 
+
+      <script src="{{url_for('static', filename='script.js')}}">
+
+      </script>
+
+
+
+</body>
+</html>
