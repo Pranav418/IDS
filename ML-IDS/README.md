@@ -1,7 +1,6 @@
-## Download the model from Google drive link and add to same folder (add all 4 files). 
-### pip install the requirements.txt file inside virtual environment
+# Web Instrustion Detection Code
+## Add both the files into the ML-IDS folder to obtain the dataset values
 
-https://drive.google.com/drive/folders/1Uy-iHYR52hgTKRAI2b2KbIhAusjEA05L?usp=sharing
+https://drive.google.com/drive/folders/1-Aj7ZCd1bb-0qzNvYYa_aBEXnowu8XI1?usp=sharing
 
-
-### Further Project explaination (PPT): https://docs.google.com/presentation/d/1-MM_Hfxjozg8s0kwolBSrW3YGDCsHIrH03xPskpl9Fs/edit?usp=sharing
+ 
